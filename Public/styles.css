@@ -42,6 +42,7 @@ li.nav-item {
     font-size: 1.6rem;
 }
 
+
 .card-title-html {
     font-size: 2rem;
     padding: 1rem;
@@ -60,7 +61,7 @@ li.nav-item {
 }
 
 
-/* Card Title Underlines */
+
 .card-title-css {
     font-size: 2rem;
     padding: 1rem;
@@ -93,6 +94,40 @@ li.nav-item {
   height: 5px;
   border-radius: 2px;
   background: linear-gradient(111.3deg, #df6400 9.6%, #d0d400 93.6%);
+}
+
+.card-title-react {
+  font-size: 2rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.card-title-react:before {
+  content: "";
+position: absolute;
+top: 100%;
+width: 100%;
+left: 0;
+height: 5px;
+border-radius: 2px;
+background: linear-gradient(111.3deg, #00ffff 9.6%, #1000eea8 93.6%);
+}
+
+.card-title-nodejs {
+  font-size: 2rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.card-title-nodejs:before {
+  content: "";
+position: absolute;
+top: 100%;
+width: 100%;
+left: 0;
+height: 5px;
+border-radius: 2px;
+background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
 }
 /* Card Title Underline End */
 
@@ -248,7 +283,7 @@ li.nav-item {
  .contactMeGuideHeader {
   text-align: center;
   padding-bottom: 1rem;
-  background: -webkit-linear-gradient(#ff0080, #ff0000);
+  background: -webkit-linear-gradient(#ff7300, #ff00c8);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
