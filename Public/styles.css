@@ -97,6 +97,7 @@ li.nav-item {
 }
 
 .card-title-react {
+  color: #00d9ff;
   font-size: 2rem;
   padding: 1rem;
   position: relative;
@@ -133,6 +134,12 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
 
 .card-text {
     overflow-wrap: break-word;
+}
+
+.card-text-react {
+  color: #00d9ff;
+  margin-top: 2rem;
+  overflow-wrap: break-word;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
