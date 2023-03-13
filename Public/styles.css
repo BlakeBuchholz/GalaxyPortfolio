@@ -423,7 +423,7 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
   
   
   /* Marble hobbies section START */
-  .marble-Border{
+  .marble-Border {
     margin-top: 20rem;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
@@ -431,16 +431,16 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
     
   }
 
-  .marble-Span{
+  .marble-Span {
     width: 100vw;
   }
 
-  .marble-Span-Text{
+  .marble-Span-Text {
     margin: 0px;
     padding: 0px;
   }
   
-  .marble-Section{
+  .marble-Section {
    margin: 0px;
    padding: 0px;
    overflow-x: hidden;
@@ -456,10 +456,4 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
    width: 100vw;
    z-index: -1;
 }
-
-.hobbies-Title {
-  position: absolute;
-  z-index: 1;
-}
-
 /* Marble hobbies section END */
