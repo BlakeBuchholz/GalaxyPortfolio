@@ -9,7 +9,7 @@
 .navbar-Border {
   height: .5rem;
   min-width: 100vh;
-  background-image: linear-gradient(45deg, #ff0000d3 ,#ff7b00cc ,#ff00c8d5, #8400ffd0, #0084ffd0);
+  background-image: linear-gradient(45deg, #ff0000e1 ,#ff7b00e0 ,#ff00c8dc, #8400ffe0, #0084ffdc);
   filter: brightness(70%);
 }
 
@@ -471,5 +471,28 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
 .hobbies-Header {
   color: #ffffff;
   font-size: 3rem;
+}
+
+.hobby-Coding {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 15vw;
+  margin-top: 10rem;
+  margin-left: 15rem;
+  
+}
+
+.hobby-Coding-Header {
+  background: -webkit-linear-gradient(#ff7300, #ff00c8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  border-style: groove;
+  border-radius: 2rem;
+  border-color: dimgrey;
+  border-width: .5rem;
+
 }
 /* Marble hobbies section END */
