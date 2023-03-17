@@ -495,4 +495,26 @@ background: linear-gradient(111.3deg, #5eff00 9.6%, #008307 93.6%);
   border-width: .5rem;
 
 }
+
+.hobby-Gaming {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 15vw;
+  margin-bottom: 20rem;
+  margin-left: 50rem;
+  
+}
+
+.hobby-Gaming-Header {
+  background: -webkit-linear-gradient(#ff7300, #ff00c8);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  border-style: groove;
+  border-radius: 2rem;
+  border-color: dimgrey;
+  border-width: .5rem;
+}
 /* Marble hobbies section END */
